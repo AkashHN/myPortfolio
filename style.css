@@ -1,0 +1,257 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+header{
+    position: fixed;
+    width: 100%;
+    display:flex;
+    justify-content: space-between;
+    padding: 13px 150px;
+    background-color: #0f0c27;
+    color: white;
+    border-bottom: solid 1.5px grey;
+    margin-bottom: 50px;
+
+}
+
+.navbar {
+    display: flex;
+    margin-left: 10px;
+    justify-content: space-between;
+    width: 30%;
+    padding-top: 10px;
+    list-style:none;
+}
+
+header a{
+    color: white;
+    text-decoration: none;
+}
+
+.logo {
+    font-size: 1.8rem;
+    margin-left: 10px;
+    font-weight: 600;
+}
+
+ul a{
+    font-size: 1rem;
+}
+
+.home{
+    background-color: #0f0c27;
+    display: flex;
+    justify-content: space-between;
+}
+
+.social {
+    height: 100px;
+}
+
+section{
+    padding: 100px 10%;
+}
+
+.social a i {
+    font-size: 1.5rem;
+    color: white;
+    margin-top: 1rem;
+}
+
+.social {
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
+    margin-top: 30px;
+}
+
+.home-text {
+    color: white;
+    margin-top: 1rem;
+    font-size: 1.2rem;
+
+}
+
+.contact-me{
+    color: white;
+    text-decoration: none;
+    background-color:mediumblue;
+    padding: 10px 15px;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
+.home-img img{
+    border-radius: 360px;
+}
+
+.para-home {
+    font-size: 1.2rem;
+    margin-top: 20px ;
+    margin-bottom: 20px ;
+}
+
+.heading-name {
+    font-size: 2.5rem;
+}
+
+.aboutme-section{
+    text-align: center;
+    background-color: #0f0c27;
+    color: white;
+    
+}
+
+.icons-div {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    margin-left: 40%;
+    text-align: left;
+}
+
+.aboutme-section h1{
+    font-size: 3rem;
+}
+
+.heading{
+    color: green;
+    margin-top: 30px;
+}
+
+.aboutme-text{
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 20px;
+
+}
+
+span i{
+    padding: 10px;
+}
+
+.skills{
+    text-align: center;
+    background-color: #0f0c27;
+    color: white;
+    padding: 10%;
+}
+
+.bar-box{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 0;
+    margin-bottom: 1 rem;
+   
+
+}
+
+.skills-section{
+    display: flex;
+    justify-content: space-between;
+}
+
+.light-bar{
+    width: 100%;
+    background-color: hsla(260, 100%, 44%,0.4);
+    height: 0.5rem;
+    position: absolute;
+    top: 10;
+    bottom: 0;
+}
+
+.skill-bar{
+    width: 40%;
+}
+
+.percent-bar{
+    position: absolute;
+    top: 10;
+    bottom: 0%;
+    background-color: #033a80;
+    height: 0.5rem;
+    border-radius: 0.5rem;
+}
+
+.html-bar{
+    width: 80%;
+}
+
+.css-bar{
+    width: 70%;
+}
+
+.js-bar{
+    width: 40%;
+}
+
+.java-bar{
+    width: 55%;
+}
+
+.sql-bar{
+    width: 75%;
+}
+
+.skill-img img {
+    border-radius: 70px;
+}
+
+.skills-heading{
+    font-size: 2.5rem;
+}
+
+.skills-subheading{
+    color: green;
+}
+
+.contact-form{
+    background-color: #0f0c27;
+    color: white;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin: 0 auto;
+}
+
+.form input, textarea{
+    margin-bottom: 10px;
+    border-radius: 10px;
+    background-color: #150b3a;
+    text-decoration: none;
+    border: 0;
+    color: white;
+}
+
+.form input, textarea{
+    padding: 10px;
+}
+
+.contact-me-heading{
+   text-align: center;
+   margin-bottom: 20px;
+   font-size: 2.5rem;
+}
+
+.submit{
+    margin-top: 20px;
+    width: 20%;
+    background-color: #033a80;
+    color: white;
+    padding: 10px 15px;
+    margin: 0px auto;
+    cursor: pointer;
+
+}
